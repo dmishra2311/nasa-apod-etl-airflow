@@ -1,0 +1,263 @@
+[2025-08-26T01:09:03.250+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:03.253+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:09:03.255+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:03.254+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:04.147+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:04.606+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.606+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:nasa_apod_etl
+[2025-08-26T01:09:04.616+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.615+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:nasa_apod_etl
+[2025-08-26T01:09:04.623+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.623+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:nasa_apod_etl
+[2025-08-26T01:09:04.625+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.625+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:09:04.634+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.634+0000] {dag.py:3058} INFO - Creating ORM DAG for nasa_apod_etl
+[2025-08-26T01:09:04.644+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:04.644+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:09:04.667+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 1.428 seconds
+[2025-08-26T01:09:35.138+0000] {processor.py:161} INFO - Started process (PID=177) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:35.141+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:09:35.143+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:35.143+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:35.405+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:35.430+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:35.429+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:09:35.448+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:35.447+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:09:35.467+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.335 seconds
+[2025-08-26T01:09:46.677+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:46.679+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:09:46.680+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:46.680+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:46.923+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:09:46.948+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:46.947+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:09:46.968+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:09:46.968+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:09:47.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.452 seconds
+[2025-08-26T01:10:17.541+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:17.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:10:17.546+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:17.546+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:17.838+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:17.864+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:17.864+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:10:17.883+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:17.882+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:10:17.906+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.370 seconds
+[2025-08-26T01:10:48.385+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:48.387+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:10:48.388+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:48.388+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:48.669+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:10:48.694+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:48.694+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:10:48.722+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:10:48.721+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:10:48.746+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.366 seconds
+[2025-08-26T01:11:19.142+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:19.144+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:11:19.146+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:19.145+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:19.417+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:19.445+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:19.444+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:11:19.465+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:19.464+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:11:19.491+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.353 seconds
+[2025-08-26T01:11:49.603+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:49.605+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:11:49.607+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:49.606+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:49.888+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:11:49.911+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:49.910+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:11:49.931+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:11:49.931+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:11:49.950+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.350 seconds
+[2025-08-26T01:12:20.403+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:20.406+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:12:20.409+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:20.408+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:20.702+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:20.727+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:20.726+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:12:20.747+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:20.747+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:12:20.770+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.373 seconds
+[2025-08-26T01:12:51.326+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:51.329+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:12:51.331+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:51.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:51.562+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:12:51.587+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:51.586+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:12:51.606+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:12:51.606+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:12:51.629+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.308 seconds
+[2025-08-26T01:13:09.778+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:09.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:13:09.781+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:09.781+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:10.044+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:10.078+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:10.077+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:13:10.098+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:10.098+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-25 00:00:00+00:00, run_after=2025-08-26 00:00:00+00:00
+[2025-08-26T01:13:10.122+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.348 seconds
+[2025-08-26T01:13:40.505+0000] {processor.py:161} INFO - Started process (PID=183) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:40.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:13:40.508+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:40.507+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:40.778+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:13:40.804+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:40.804+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:13:40.828+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:13:40.828+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:13:40.853+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.353 seconds
+[2025-08-26T01:14:11.234+0000] {processor.py:161} INFO - Started process (PID=189) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:11.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:14:11.237+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:11.237+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:11.482+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:11.504+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:11.504+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:14:11.525+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:11.525+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:14:11.546+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.316 seconds
+[2025-08-26T01:14:42.026+0000] {processor.py:161} INFO - Started process (PID=195) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:42.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:14:42.030+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:42.029+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:42.302+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:14:42.330+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:42.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:14:42.350+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:14:42.350+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:14:42.372+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.349 seconds
+[2025-08-26T01:15:12.793+0000] {processor.py:161} INFO - Started process (PID=201) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:12.794+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:15:12.796+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:12.796+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:13.040+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:13.070+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:13.069+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:15:13.096+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:13.096+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:15:13.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.333 seconds
+[2025-08-26T01:15:43.469+0000] {processor.py:161} INFO - Started process (PID=207) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:43.471+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:15:43.473+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:43.473+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:43.784+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:15:43.833+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:43.832+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:15:43.865+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:15:43.865+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:15:43.898+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.440 seconds
+[2025-08-26T01:16:14.341+0000] {processor.py:161} INFO - Started process (PID=213) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:14.344+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:16:14.345+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:14.345+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:14.596+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:14.619+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:14.619+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:16:14.636+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:14.636+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:16:14.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.320 seconds
+[2025-08-26T01:16:44.787+0000] {processor.py:161} INFO - Started process (PID=219) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:44.789+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:16:44.792+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:44.791+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:45.027+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:16:45.054+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:45.054+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:16:45.075+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:16:45.075+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:16:45.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.316 seconds
+[2025-08-26T01:17:15.567+0000] {processor.py:161} INFO - Started process (PID=225) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:15.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:17:15.570+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:15.570+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:15.818+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:15.840+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:15.840+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:17:15.860+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:15.860+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:17:15.880+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.317 seconds
+[2025-08-26T01:17:46.191+0000] {processor.py:161} INFO - Started process (PID=231) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:46.194+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:17:46.196+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:46.196+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:46.407+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:17:46.432+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:46.431+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:17:46.451+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:17:46.451+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:17:46.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.291 seconds
+[2025-08-26T01:18:13.833+0000] {processor.py:161} INFO - Started process (PID=237) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:13.835+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:18:13.837+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:13.837+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:14.105+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:14.128+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:14.127+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:18:14.145+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:14.145+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:18:14.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.344 seconds
+[2025-08-26T01:18:30.068+0000] {processor.py:161} INFO - Started process (PID=171) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:30.070+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:18:30.071+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:30.071+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:30.311+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:18:30.342+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:30.342+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:18:30.361+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:18:30.361+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:18:30.386+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.320 seconds
+[2025-08-26T01:19:00.803+0000] {processor.py:161} INFO - Started process (PID=180) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:00.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:19:00.807+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:00.807+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:01.072+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:01.095+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:01.095+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:19:01.114+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:01.113+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:19:01.270+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.471 seconds
+[2025-08-26T01:19:31.756+0000] {processor.py:161} INFO - Started process (PID=186) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:31.759+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:19:31.761+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:31.761+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:31.994+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:19:32.016+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:32.016+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:19:32.034+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:19:32.034+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:19:32.055+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.305 seconds
+[2025-08-26T01:20:02.128+0000] {processor.py:161} INFO - Started process (PID=192) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:02.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:20:02.131+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:02.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:02.397+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:02.439+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:02.438+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:20:02.467+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:02.466+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:20:02.498+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.374 seconds
+[2025-08-26T01:20:32.865+0000] {processor.py:161} INFO - Started process (PID=198) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:32.867+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:20:32.868+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:32.868+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:33.161+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:20:33.187+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:33.187+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:20:33.212+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:20:33.212+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:20:33.242+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.381 seconds
+[2025-08-26T01:21:03.529+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:03.531+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:21:03.532+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:03.532+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:03.795+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:03.825+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:03.825+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:21:03.850+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:03.849+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:21:03.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.351 seconds
+[2025-08-26T01:21:34.307+0000] {processor.py:161} INFO - Started process (PID=210) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:34.309+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:21:34.310+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:34.310+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:34.542+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:21:34.569+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:34.569+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:21:34.593+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:21:34.592+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:21:34.616+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.312 seconds
+[2025-08-26T01:22:05.011+0000] {processor.py:161} INFO - Started process (PID=216) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:05.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:22:05.014+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:05.014+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:05.261+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:05.288+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:05.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:22:05.317+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:05.316+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:22:05.339+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.332 seconds
+[2025-08-26T01:22:35.498+0000] {processor.py:161} INFO - Started process (PID=222) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:35.500+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:22:35.502+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:35.502+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:35.752+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:22:35.776+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:35.776+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:22:35.798+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:22:35.798+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:22:35.819+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.326 seconds
+[2025-08-26T01:23:06.087+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:06.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:23:06.090+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:06.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:06.335+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:06.373+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:06.372+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:23:06.398+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:06.398+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:23:06.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.343 seconds
+[2025-08-26T01:23:36.666+0000] {processor.py:161} INFO - Started process (PID=234) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:36.668+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:23:36.670+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:36.669+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:37.015+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:23:37.053+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:37.053+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:23:37.086+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:23:37.085+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:23:37.123+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.461 seconds
+[2025-08-26T01:24:07.555+0000] {processor.py:161} INFO - Started process (PID=240) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:07.558+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:24:07.560+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:07.560+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:07.846+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:07.873+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:07.873+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:24:07.892+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:07.892+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:24:07.914+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.362 seconds
+[2025-08-26T01:24:38.410+0000] {processor.py:161} INFO - Started process (PID=246) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:38.413+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:24:38.415+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:38.415+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:38.691+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:24:38.717+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:38.716+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:24:38.740+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:24:38.740+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:24:38.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.354 seconds
+[2025-08-26T01:25:08.903+0000] {processor.py:161} INFO - Started process (PID=252) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:08.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:25:08.908+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:08.907+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:09.159+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:09.186+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:09.185+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:25:09.204+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:09.204+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:25:09.240+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.340 seconds
+[2025-08-26T01:25:39.637+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:39.638+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:25:39.639+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:39.639+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:39.856+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:25:39.880+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:39.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:25:39.900+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:25:39.899+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:25:39.928+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.295 seconds
+[2025-08-26T01:26:10.057+0000] {processor.py:161} INFO - Started process (PID=264) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:10.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:26:10.060+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:10.060+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:10.300+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:10.323+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:10.322+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:26:10.342+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:10.341+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:26:10.364+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.310 seconds
+[2025-08-26T01:26:40.781+0000] {processor.py:161} INFO - Started process (PID=270) to work on /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:40.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/nasa.py for tasks to queue
+[2025-08-26T01:26:40.785+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:40.784+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:41.036+0000] {processor.py:840} INFO - DAG(s) 'nasa_apod_etl' retrieved from /opt/airflow/dags/nasa.py
+[2025-08-26T01:26:41.059+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:41.059+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-26T01:26:41.081+0000] {logging_mixin.py:188} INFO - [2025-08-26T01:26:41.080+0000] {dag.py:3823} INFO - Setting next_dagrun for nasa_apod_etl to 2025-08-26 00:00:00+00:00, run_after=2025-08-27 00:00:00+00:00
+[2025-08-26T01:26:41.105+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/nasa.py took 0.327 seconds
