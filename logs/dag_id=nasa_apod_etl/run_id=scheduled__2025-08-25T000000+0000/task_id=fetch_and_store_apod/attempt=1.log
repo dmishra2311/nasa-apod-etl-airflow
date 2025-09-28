@@ -1,0 +1,14 @@
+[2025-08-26T01:13:22.345+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nasa_apod_etl.fetch_and_store_apod scheduled__2025-08-25T00:00:00+00:00 [queued]>
+[2025-08-26T01:13:22.353+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nasa_apod_etl.fetch_and_store_apod scheduled__2025-08-25T00:00:00+00:00 [queued]>
+[2025-08-26T01:13:22.354+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-08-26T01:13:22.366+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): fetch_and_store_apod> on 2025-08-25 00:00:00+00:00
+[2025-08-26T01:13:22.371+0000] {standard_task_runner.py:60} INFO - Started process 179 to run task
+[2025-08-26T01:13:22.374+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'nasa_apod_etl', 'fetch_and_store_apod', 'scheduled__2025-08-25T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/nasa.py', '--cfg-path', '/tmp/tmp84gb6vd3']
+[2025-08-26T01:13:22.377+0000] {standard_task_runner.py:88} INFO - Job 3: Subtask fetch_and_store_apod
+[2025-08-26T01:13:22.459+0000] {task_command.py:423} INFO - Running <TaskInstance: nasa_apod_etl.fetch_and_store_apod scheduled__2025-08-25T00:00:00+00:00 [running]> on host 325e9e9be3f5
+[2025-08-26T01:13:22.529+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='nasa_apod_etl' AIRFLOW_CTX_TASK_ID='fetch_and_store_apod' AIRFLOW_CTX_EXECUTION_DATE='2025-08-25T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-08-25T00:00:00+00:00'
+[2025-08-26T01:13:24.579+0000] {logging_mixin.py:188} INFO - Stored APOD 2017-10-12 in Postgres and image locally.
+[2025-08-26T01:13:24.582+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-08-26T01:13:24.749+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=nasa_apod_etl, task_id=fetch_and_store_apod, execution_date=20250825T000000, start_date=20250826T011322, end_date=20250826T011324
+[2025-08-26T01:13:24.806+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-08-26T01:13:24.830+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
